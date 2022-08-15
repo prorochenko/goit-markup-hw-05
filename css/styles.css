@@ -509,12 +509,16 @@ color: #FFFFFF;
 
 .social-icon-footer{
   fill: var(--fill-hiver-icon);
-  transition-property: fill;
-transition-delay: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link-footer.social-icon{
+
+.social-link-footer{
+  transition-property: background;
+  transition-delay: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link-footer .social-icon{
 transition-property: fill;
 transition-delay: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
