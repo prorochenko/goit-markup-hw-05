@@ -837,7 +837,7 @@ overflow: visibility;
 
 /* Когда модалка спрятана к ней применяем: */
 .backdrop.is-hidden .modal{
-transform: scale(0.5)  translate(-50%, -50%);
+transform: scale(0.9)  translate(-50%, -50%);
 }
 
 
@@ -854,7 +854,7 @@ transform: scale(0.5)  translate(-50%, -50%);
   
   transform: scale(1) translate(-50%, -50%);
 
-transition: transorm 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transorm 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
