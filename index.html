@@ -57,7 +57,7 @@
 
       <section class="hero">
         <h1 class="hero-tittle">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="button primary focus">Замовити послугу</button>
+        <button type="button" class="button primary focus" data-modal-open>Замовити послугу</button>
       </section>
 
       <!-- Особенности -->
@@ -147,9 +147,7 @@
           <h2 class="title">Наша команда</h2>
           <ul class="team-list list">
             <li class="cards">
-              <div class="team-thumb">
                 <img src="./images/portrait1.jpg" alt="чоловік-дизайнер посміхається" width="270"/>
-              </div>
                 <div class="textinteam">
                 <h3 class="title">Ігор Дем'яненко</h3>
                 <p lang="en" class="text">Product Designer</p>
@@ -585,14 +583,18 @@
       </div>
       </div>
     </footer>
-<div class="backdrop">
+
+    <!-- BackDrop -->
+  
+  
+<div class="backdrop is-hidden" data-modal>
   <div class="modal">
-    <button class="button-backdrop"><svg class="social-icon-backdrop" width="11" height="11">
+    <button class="button-backdrop" data-modal-close><svg class="social-icon-backdrop" width="11" height="11">
       <use href="./images/sprite.svg#icon-Vector"></use>
     </svg></button>
   </div>  
 </div>
 
-
+<script src="./js/modal.js"></script>
   </body>
 </html>
